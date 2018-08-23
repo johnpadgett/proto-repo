@@ -7,6 +7,10 @@ router.get('/my-first-route', function (req, res){
     res.render('my_first_route', { 'first_param' : 'my data'});
 });
 
+router.get('/my-first-question', function (req, res){
+    res.render('my_first_question');
+});
+
 router.get('/my-first-answer', function (req, res){
     res.render('my_first_answer');
 });
